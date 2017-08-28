@@ -1,0 +1,107 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: OperationReverse - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/OperationReverse.res" /d "NDEBUG" /d "_AFXDLL" "D:\NewProjects\Native\OperationReverse\OperationReverse.rc"" 
+Creating temporary file "C:\Users\Mihai\AppData\Local\Temp\RSP45BD.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/OperationReverse.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\NewProjects\Native\OperationReverse\BinEdit.cpp"
+"D:\NewProjects\Native\OperationReverse\GenericPurposeMethods.cpp"
+"D:\NewProjects\Native\OperationReverse\NewEdit.cpp"
+"D:\NewProjects\Native\OperationReverse\OperationReverse.cpp"
+"D:\NewProjects\Native\OperationReverse\OperationReverseDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\Mihai\AppData\Local\Temp\RSP45BD.tmp" 
+Creating temporary file "C:\Users\Mihai\AppData\Local\Temp\RSP45BE.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/OperationReverse.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\NewProjects\Native\OperationReverse\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\Mihai\AppData\Local\Temp\RSP45BE.tmp" 
+Creating temporary file "C:\Users\Mihai\AppData\Local\Temp\RSP45BF.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/OperationReverse.pdb" /machine:I386 /out:"Release/OperationReverse.exe" 
+.\Release\BinEdit.obj
+.\Release\GenericPurposeMethods.obj
+.\Release\NewEdit.obj
+.\Release\OperationReverse.obj
+.\Release\OperationReverseDlg.obj
+.\Release\StdAfx.obj
+.\Release\OperationReverse.res
+]
+Creating command line "link.exe @C:\Users\Mihai\AppData\Local\Temp\RSP45BF.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+BinEdit.cpp
+GenericPurposeMethods.cpp
+NewEdit.cpp
+OperationReverse.cpp
+OperationReverseDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+OperationReverse.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: OperationReverse - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/OperationReverse.res" /d "_DEBUG" /d "_AFXDLL" "D:\NewProjects\Native\OperationReverse\OperationReverse.rc"" 
+Creating temporary file "C:\Users\Mihai\AppData\Local\Temp\RSP4939.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/OperationReverse.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\NewProjects\Native\OperationReverse\BinEdit.cpp"
+"D:\NewProjects\Native\OperationReverse\GenericPurposeMethods.cpp"
+"D:\NewProjects\Native\OperationReverse\NewEdit.cpp"
+"D:\NewProjects\Native\OperationReverse\OperationReverse.cpp"
+"D:\NewProjects\Native\OperationReverse\OperationReverseDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\Mihai\AppData\Local\Temp\RSP4939.tmp" 
+Creating temporary file "C:\Users\Mihai\AppData\Local\Temp\RSP493A.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/OperationReverse.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\NewProjects\Native\OperationReverse\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\Mihai\AppData\Local\Temp\RSP493A.tmp" 
+Creating temporary file "C:\Users\Mihai\AppData\Local\Temp\RSP493B.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/OperationReverse.pdb" /debug /machine:I386 /out:"Debug/OperationReverse.exe" /pdbtype:sept 
+.\Debug\BinEdit.obj
+.\Debug\GenericPurposeMethods.obj
+.\Debug\NewEdit.obj
+.\Debug\OperationReverse.obj
+.\Debug\OperationReverseDlg.obj
+.\Debug\StdAfx.obj
+.\Debug\OperationReverse.res
+]
+Creating command line "link.exe @C:\Users\Mihai\AppData\Local\Temp\RSP493B.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+BinEdit.cpp
+GenericPurposeMethods.cpp
+NewEdit.cpp
+OperationReverse.cpp
+OperationReverseDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+OperationReverse.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
